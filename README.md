@@ -1,4 +1,4 @@
-# Fashion-MNIST Neural Network Classification
+# Fashion-MINIST Neural Network Classification
 
 A complete deep learning pipeline for classifying fashion items using the **Fashion-MNIST** dataset. Built with TensorFlow/Keras and extended with an **OpenCV-powered custom image prediction** system — including webcam support.
 
