@@ -1,4 +1,4 @@
-# Fashion-MINIST Neural Network Classification
+# Fashion-MNIST Neural Network Classification
 
 A complete deep learning pipeline for classifying fashion items using the **Fashion-MNIST** dataset. Built with TensorFlow/Keras and extended with an **OpenCV-powered custom image prediction** system — including webcam support.
 
@@ -92,11 +92,11 @@ predict_from_camera()
 
 ```
 1. Read image (JPG, PNG, BMP, WEBP supported)
-2. Convert BGR → Grayscale
+2. Convert RGB → Grayscale
 3. Auto-invert if background is bright
 4. Resize to 28×28 (INTER_AREA)
 5. Normalize to [0, 1]
-6. Flatten to (1, 784)
+6. Flatten to (-1, 784)
 ```
 
 ---
